@@ -1,0 +1,224 @@
+
+#inicio {
+    width: 100%;
+    position: absolute;
+    height: 475px;
+    left: 0px;
+    top: 0px;
+    background: #303030;
+    
+   
+}
+#titulo-inicio {
+    position: absolute;
+    width: 1024px;
+    height: 72px;
+    left: 62px;
+    top: 206px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+#subtitulo-inicio {
+    position: absolute;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 298px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+#dados {
+    position: absolute;
+    background: #F9F9F9;
+    height: 229px;
+    width: 100%;
+    margin-top: 475px;
+    border-radius: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+   
+
+}
+
+.informacao1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 66.17890167236328px;
+    width: 292px;
+    margin-left: 171px;
+    margin-top: 96px;
+    border-radius: nullpx;
+    font-style: normal;
+    color: #000000;
+
+
+}  
+
+        
+.informacao2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 67px;
+    width: 354px;
+    margin-left: 99px;
+    margin-top: 96px;
+    border-radius: nullpx;
+
+
+
+}
+.informacao3 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 88px;
+    width: 361px;
+    margin-top: 96px;
+    margin-left: 99px;
+    margin-right: 64px;
+    border-radius: nullpx;
+
+}
+#informacao {
+    position: absolute;
+    margin-top: 781px;
+    background: #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    font-size: 40;
+    height: 684px;
+    width: 100%;
+}
+.numero {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#comunicado {
+    margin-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 50% */
+    align-items: center;
+}
+#informacao-titulo {  
+    font-size: 40px;
+     line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 95px;
+    margin-bottom: 65px;
+
+
+  }
+.frase  {
+    width: 735px;
+    height: 161px;
+    margin-left: 95px;
+    top: 1003px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+     display: flex;
+    align-items: center;
+    color: #000000;
+    }
+        
+
+#imagem {
+    border-radius: 30px;
+    margin-right: 64px;
+    margin-bottom: 94px;
+}
+#servico {
+    position: absolute;
+    width: 100%;
+    height: 638px;
+    left: 0px;
+    top: 1478px;
+    
+    background: #303030;
+    text-align: center;
+}
+#titulo-servico {
+    width: 944px;
+    height: 48px;
+    margin-left: 320px;
+    margin-top: 87px;
+    margin-bottom: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+    margin-right: 248px;
+      
+    color: #FFFFFF;
+    
+}
+input{
+    width: 508px;
+    height: 72px;
+    left: 466px;
+    margin-top: 62px;
+    padding-left: 10px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+button {
+    width: 286px;
+    height: 74px;
+    margin-bottom: 87px;
+    background: #C07212;
+    border-radius: 10px;
+    margin-top: 68px;
+   
+}
+#botao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height, or 100% */
+    align-items: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+button:hover {
+    background-color: #C07212;
+    color: #C07212;
+    transform: translateY(-7px);
+}
