@@ -41,7 +41,7 @@
 #dados {
     position: absolute;
     background: #F9F9F9;
-    height: 229px;
+    height: 308px;
     width: 100%;
     margin-top: 475px;
     border-radius: 0px;
@@ -116,7 +116,7 @@
 }
 .numero {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #comunicado {
