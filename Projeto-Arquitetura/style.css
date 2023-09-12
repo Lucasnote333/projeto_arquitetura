@@ -11,7 +11,7 @@
 }
 #titulo-inicio {
     position: absolute;
-    width: 1024px;
+    
     height: 72px;
     left: 62px;
     top: 206px;
@@ -96,7 +96,7 @@
     letter-spacing: 0em;
     text-align: left;
     height: 88px;
-    width: 361px;
+    width: 33%;
     margin-top: 96px;
     margin-left: 99px;
     margin-right: 64px;
@@ -140,7 +140,7 @@
 
   }
 .frase  {
-    width: 735px;
+    
     height: 161px;
     margin-left: 95px;
     top: 1003px;
@@ -157,7 +157,7 @@
 
 #imagem {
     border-radius: 30px;
-    margin-right: 64px;
+    margin-left: 876px;
     margin-bottom: 94px;
 }
 #servico {
