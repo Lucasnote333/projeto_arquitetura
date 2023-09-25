@@ -1,4 +1,12 @@
 
+* {
+    font-family: 'inter';
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
 #inicio {
     width: 100%;
     position: absolute;
@@ -11,7 +19,6 @@
 }
 #titulo-inicio {
     position: absolute;
-    
     height: 72px;
     left: 62px;
     top: 206px;
@@ -27,7 +34,7 @@
 #subtitulo-inicio {
     position: absolute;
     width: 1024px;
-    height: 28px;
+    height: 0px;
     left: 62px;
     top: 298px;
     font-family: 'Inter';
@@ -61,7 +68,7 @@
     letter-spacing: 0em;
     text-align: left;
     height: 66.17890167236328px;
-    width: 292px;
+    width: 33%;
     margin-left: 171px;
     margin-top: 96px;
     border-radius: nullpx;
@@ -80,7 +87,7 @@
     letter-spacing: 0em;
     text-align: left;
     height: 67px;
-    width: 354px;
+    width: 33%;
     margin-left: 99px;
     margin-top: 96px;
     border-radius: nullpx;
@@ -91,7 +98,7 @@
 .informacao3 {
     font-family: Inter;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
@@ -110,9 +117,9 @@
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    font-size: 40;
-    height: 684px;
     width: 100%;
+    height:800px ;
+   
 }
 .numero {
     font-weight: 600;
@@ -123,18 +130,18 @@
     margin-top: 200px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 14px;
     line-height: 20px;
     /* or 50% */
     align-items: center;
 }
 #informacao-titulo {  
-    font-size: 40px;
+    font-size: 33px;
      line-height: 20px;
     letter-spacing: 0px;
     text-align: left;
-    margin-left: 95px;
+    margin-left: 50px;
     margin-bottom: 65px;
 
 
@@ -142,12 +149,12 @@
 .frase  {
     
     height: 161px;
-    margin-left: 95px;
+    margin-left: 50px;
     top: 1003px;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
     line-height: 30px;
      display: flex;
     align-items: center;
@@ -157,8 +164,12 @@
 
 #imagem {
     border-radius: 30px;
-    margin-left: 876px;
-    margin-bottom: 94px;
+    height: 300px;
+    margin: 50px 0px 50px 0px;
+    width: 50%;
+    padding: 0%;
+    
+    
 }
 #servico {
     position: absolute;
@@ -171,9 +182,10 @@
     text-align: center;
 }
 #titulo-servico {
-    width: 944px;
+    
+    width: 100%;
     height: 48px;
-    margin-left: 320px;
+   
     margin-top: 87px;
     margin-bottom: 48px;
     font-family: 'Inter';
@@ -182,7 +194,7 @@
     font-size: 40px;
     line-height: 150%;
     /* identical to box height, or 48px */
-    margin-right: 248px;
+   
       
     color: #FFFFFF;
     
